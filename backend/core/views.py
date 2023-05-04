@@ -98,7 +98,6 @@ class ItemConteudoView(APIView):
             "headers":headers
         })
 
-
 # 02.01 PRIMEIRA TABELA DA SEGUNDA TELA
 class FaturamentoIdView(APIView):
     def get(self, request, pk):
@@ -121,7 +120,6 @@ class FaturamentoIdView(APIView):
                 previa['bo_regra_cobranca'])
             
         return Response(serializer.data)            
-
 
 # 03.02 SEGUNDA TABELA DA TERCEIRA TELA
 class ItemConfigIdView(APIView):

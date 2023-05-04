@@ -113,8 +113,6 @@ class Contrato(models.Model):
             models.Index(fields=['dt_sincronizacao'], name='c_ctr_dt_szc_idx'),
         ]
 
-
-
 ##      RELEVANCIA      ##
 class Relevancia(models.Model):
     id = models.IntegerField(primary_key=True)
@@ -216,7 +214,6 @@ class ItemConfiguracaoResponsavel(models.Model):
         ]
 
 
-
 ##      ITEM DE CONFIGURAÇÃO    ##
 class ItemConfiguracao(models.Model):
     id = models.IntegerField(primary_key=True)
@@ -271,7 +268,6 @@ class ItemConfiguracao(models.Model):
             models.Index(fields=['dt_sincronizacao'],
                          name='c_itcg_dt_szc_idx'),
         ]
-
 
 
 ##       FATURAMENTO ITEM    ##
